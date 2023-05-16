@@ -1,0 +1,7 @@
+- SFINAE stands for "Substitution Failure Is Not An Error."
+
+- It allows certain template instantiations to fail silently instead of causing a compilation error.
+
+- It is used to conditionally enable or disable function or class templates based on substitution success or failure during template instantiation.
+
+- SFINAE is commonly implemented using techniques like decltype, std::enable_if, or specialized template overloads.

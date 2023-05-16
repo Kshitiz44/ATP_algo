@@ -1,0 +1,12 @@
+2 types of indicators: bearish and bullish
+
+bearish indicators reflect increase in demand of that stock in the market, while bullish reflects decrease in demand
+
+Strategy:
+	
+	if(isHammer(prices[today] || bullishEngulfing(prices[today] or similar)
+		Buy
+	else if(bearishEngulfing(prices[today] or similar)
+		Sell
+
+	//check if current prices show a bullish trend or bearish trend using the 	indicators and buy and sell accordingly
